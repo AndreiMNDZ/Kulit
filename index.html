@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating rose petals background -->
+    <div class="petals">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+    </div>
+
+    <div class="container">
+        <div class="heart">❤️</div>
+        <p class="message">
+            My dearest Kulit,<br><br>
+            Hi ilang araw din wala tayo masyadong usap simula nung nagusap tayo sainyo and naguusap lang tayo about sa pusa.
+            I know hindi ko pa nabibigay yung  reassurance na deserved mo and alam ko din naman na kulang din ako sa efforts.
+            I'm really sorry mahal for the times na hindi kita sinasamahan kapag nagaaway tayo and lagi ako lumalayo. 
+            I'm sorry din wala akong efforts lagi. You deserved better from me. Im trying to learn from this and do better.
+            Im sorry mahal. I hope you like this kasi paulit ulit lang po. I LOVE YOUU!!
+        </p>
+        <div class="heart">💕</div>
+
+        <!-- Photo Gallery -->
+        <div class="photo-gallery">
+            
+            <div class="photos">
+                <div class="photo-item">
+                    <img src="4ffb31ac-9300-4555-a327-3c58dbc8f1a5.jpg" alt="Our happy moments" onerror="this.src='https://via.placeholder.com/200x200/ffe6e6/333?text=Your+Photo+1'">
+                    <div class="photo-caption">Our happy moments</div>
+                </div>
+                <div class="photo-item">
+                    <img src="image1.jpg" alt="Beautiful memories" onerror="this.src='https://via.placeholder.com/200x200/ffb3ba/333?text=Your+Photo+2'">
+                    <div class="photo-caption">Beautiful memories</div>
+                </div>
+                <div class="photo-item">
+                    <img src="50e840d3-7f88-4027-ad1e-01e3d1f408c6.jpg" alt="Together forever" onerror="this.src='https://via.placeholder.com/200x200/ff9999/333?text=Your+Photo+3'">
+                    <div class="photo-caption">Together forever</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Controls -->
+        <div class="music-controls">
+            <button id="playPauseBtn" class="music-btn">
+                <span id="playIcon">▶️</span>
+                <span id="pauseIcon" style="display: none;">⏸️</span>
+                Play Music
+            </button>
+        </div>
+
+        <!-- Hidden audio element -->
+        <audio id="bgMusic" loop>
+            <source src="Miley Cyrus - Adore You (Lyrics).mp3" type="audio/mpeg">
+            <source src="your-music-file.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
